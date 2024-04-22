@@ -6,6 +6,7 @@ app = Flask(__name__)
 def root():
     return "Hello Flask"
 
+# protect the file
 if __name__=="__main__":
     app.run(port=5000, debug=True)
 
